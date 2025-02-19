@@ -1,0 +1,25 @@
+body {
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: "Arial", sans-serif;
+}
+
+.card {
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+button {
+  background: linear-gradient(to right, #41ff8d, #2bff40);
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
